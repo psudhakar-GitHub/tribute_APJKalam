@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  margin: 3rem auto;
+  width: 50%;
+  padding: 1rem;
+  border: 1px solid lightgreen;
+  box-shadow: 10px 10px 10px 10px lightgreen;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.title {
+  font-weight: bolder;
+  margin-bottom: 0;
+  color: #5f4b8b;
+}
+
+.subtitle {
+  margin-top: 0;
+  font-style: italic;
+  color: #e69a8d;
+}
+
+img {
+  margin: 2rem auto;
+  clip-path: circle(50%);
+}
+
+.intro {
+  background-color: lightgreen;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+.intro h2 {
+  color: #e69a8d;
+}
+.intro p {
+  text-align: justify;
+  font-size: 0.8em;
+}
+
+.achievements {
+  background-color: rgb(174, 153, 229);
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+.achievements h2 {
+  color: #5f4b8b;
+}
+.achievements p {
+  text-align: justify;
+  font-size: 0.8em;
+}
+
+.references {
+  text-align: left;
+  font-size: 0.6em;
+}
+.references a {
+  font-style: italic;
+}
+
+/*# sourceMappingURL=main.css.map */
